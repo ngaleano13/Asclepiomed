@@ -1,0 +1,55 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  --blue-50: #e8f0ff;
+  --blue-100: #d5e4ff;
+  --blue-200: #b3cbff;
+  --blue-300: #85a6ff;
+  --blue-400: #5673ff;
+  --blue-500: #2f41ff;
+  --blue-600: #0e0cff;
+  --blue-700: #0400ff;
+  --blue-800: #0606cd;
+  --blue-900: #10149f;
+  --blue-950: #0a0a5c;
+  --blue-1000: #050533;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

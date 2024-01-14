@@ -1,0 +1,18 @@
+.custom-blue{
+    background-color: var(--blue-950);
+}
+
+.custom-white{
+    color: white;
+}
+
+.custom-green{
+    color: aquamarine;
+}
+
+
+@media (min-width: 992px){
+    .lg-fs{
+        font-size: 1.1rem;
+    }
+}
