@@ -2,14 +2,10 @@
     background-color: var(--blue-950);
 }
 
-.custom-white{
-    color: white;
+.spantitle{
+    color: transparent;
+    -webkit-text-stroke: 1px var(--blue-300);
 }
-
-.custom-green{
-    color: aquamarine;
-}
-
 
 @media (min-width: 992px){
     .lg-fs{

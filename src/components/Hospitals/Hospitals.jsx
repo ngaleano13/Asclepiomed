@@ -17,9 +17,9 @@ export const Hospitals = () => {
     const[t] = useTranslation("global");
     return(
 <>
-    <section className='text-light d-flex flex-column gap-3 mt-5'>
+    <section className='bg-hospitals text-light d-flex flex-column justify-content-center gap-2 mt-5 vh-100'>
         <h1>{t("ObrasSociales.title")}</h1>
-        <p>{t("ObrasSociales.text")}</p>
+        <h5>{t("ObrasSociales.text")}</h5>
         <div className="d-flex">
         <img src="/img/doctor1.svg" className="img-obs"></img>
         <div className="obrasSociales">

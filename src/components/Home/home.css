@@ -12,6 +12,11 @@ div > h1 {
     text-shadow: 5px 5px 5px #000000;
 }
 
+.spanhome{
+    color: transparent;
+    -webkit-text-stroke: 3px var(--blue-300);
+}
+
 @media (min-width: 576px){
     .cs-font{
         font-size: 1.2rem;

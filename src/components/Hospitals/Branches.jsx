@@ -13,7 +13,7 @@ function DivTitles(props) {
     };
 
     return (
-        <div className="titlediv">
+        <div className="titlediv text-dark">
             <h1>{props.name.toUpperCase()}</h1>
             <button
                 className={`btn-sucursal ${props.name}-${isOpen ? 'close' : 'toggle'}`}
@@ -46,8 +46,8 @@ function Sucursales() {
     };
 
     return (
-        <section id="direcciones" className="ubicaciones">
-            <p>{t("ObrasSociales.text-2")}</p>
+        <section className="text-dark d-flex flex-column justify-content-center gap-2 mt-5 vh-100'">
+            <h3>{t("ObrasSociales.text-2")}</h3>
             {mockObs.map((obras, index) => (
                 <React.Fragment key={index}>
                     <DivTitles name={obras.obra} onToggle={handleToggle} />

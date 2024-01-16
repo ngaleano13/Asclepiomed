@@ -22,10 +22,14 @@ function App() {
 
   useEffect(() => {
     const body = document.querySelector('body');
-    if (location.pathname === '/home') {
+    if (location.pathname === '/') {
       body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/hospital.jpg")';
+    } else if (location.pathname === '/forms') {
+      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/forms.jpg")';
     } else if (location.pathname === '/contact') {
       body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/contact.jpg")';
+    } else if (location.pathname === '/maps') {
+      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/maps.jpg")';
     } else {
       body.style.backgroundImage = 'url("")';
     }

@@ -9,7 +9,7 @@ export const Navbar = () =>{
   return(
 <nav className="navbar fixed-top navbar-dark navbar-expand-lg custom-blue">
   <div className="container-fluid">
-    <Link className="navbar-brand fs-3 ms-4" href="#">ASCLEPIO<span className="custom-green">MED</span></Link>
+    <Link className="navbar-brand fs-3 ms-4" href="#">ASCLEPIO<span className="spantitle">MED</span></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

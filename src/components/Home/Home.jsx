@@ -8,7 +8,7 @@ export const Home = () => {
       <div className="bg-img">
       </div>
       <div className="position-absolute top-50 start-50 translate-middle cs-font">
-        <h1>{t("header.title")}<span>MED</span></h1>
+        <h1>{t("header.title")}<span className='spanhome'>MED</span></h1>
       </div>
     </div>
   )

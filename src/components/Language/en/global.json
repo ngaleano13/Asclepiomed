@@ -45,14 +45,17 @@
         "date": "Shift date",
         "chooseObra": "Corresponding Social Work",
         "btn": "Sumbit",
-        "sumbit":"You booked your turn successfully!"
+        "sumbit":"You booked your turn successfully!",
+        "loading":"Checking the data",
+        "succes":"Your appointment was successfully booked, they will contact you soon",
+        "error":"Could not reserve your appointment"
     },
     "maps":{
         "title": "Nearby Hospitals",
-        "text":"Here you can find the closest hospitals from your current location",
-        "text-2":"Would you like to offer your location so we can recommend hospitals to you?",
+        "text":"Here you can find all the hospitals in CABA",
+        "text-2":"Would you like to center the map on your location?",
         "location":"Location",
-        "btn":"Activate",
+        "btn":"Center",
         "address": "Address",
         "phone":"Phone"
     },

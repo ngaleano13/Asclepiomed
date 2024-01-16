@@ -44,14 +44,17 @@
         "date": "Fecha del Turno",
         "chooseObra": "Obra Social correspondiente",
         "btn": "Enviar",
-        "sumbit":"Se reservo su turno con exito!"
+        "sumbit":"Se reservo su turno con exito!",
+        "loading":"Comprobando los datos",
+        "succes":"Se reservo su turno con exito, pronto se comunicaran con usted",
+        "error":"No se pudo reservar su turno"
     },
     "maps":{
         "title": "Hospitales Cercanos",
-        "text":"Aca podras encontrar los hospitales mas cercanos desde tu ubicacion actual",
-        "text-2":"¿Te gustaria ofrecer tu ubicacion para que podamos recomendarte los hospitales?",
+        "text":"Aca podes encontrar todos los hospitales de CABA",
+        "text-2":"¿Te gustaría centrar el mapa en tu ubicación?",
         "location":"Ubicacion",
-        "btn":"Activar",
+        "btn":"Centrar",
         "address": "Dirección",
         "phone":"Telefono"
     },
