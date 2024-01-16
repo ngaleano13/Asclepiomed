@@ -1,0 +1,62 @@
+{
+    "navbar":{
+        "home":"Inicio",
+        "about-us": "Nosotros",
+        "hospitals": "Obras Sociales",
+        "searches": "Hospitales Cercanos",
+        "shifts": "Turnos",
+        "contact": "Contactos",
+        "language": "Idioma"
+    },
+    "modal":{
+        "login": "Iniciar Sesion",
+        "login-user": "Usuario",
+        "login-password": "Contraseña",
+        "login-account": "¿No tenes una cuenta? Regístrate",
+        "signup": "Registrarte",
+        "signup-user": "Usuario",
+        "signup-password": "Contraseña",
+        "signup-mail": "Mail",
+        "signup-account": "¿Ya tenes una cuenta? Inicia Sesión",
+        "btn-sumbit": "Enviar"
+    },
+    "header":{
+        "title": "Bienvenido a ASCLEPIO",
+        "subtitle": "Cuida tu",
+        "subtitle-from": "desde tu",
+        "span":"salud",
+        "span-2":"hogar"
+    },
+    "ObrasSociales":{
+        "title": "Obras Sociales",
+        "text": "A continuación te mostramos las Obras Sociales con las que trabajamos, podrás hacer clic para ir a su página correspondiente.",
+        "text-2": "Ademas te brindamos algunas sucursales de cada Obra Social junto con sus horarios"
+    },
+    "turnos":{
+        "title": "Turnos Online",
+        "text": "Aca podras sacar turnos con las obras sociales afiliadas",
+        "formtext": "Ingresa tus datos para el turno",
+        "name": "Nombre",
+        "lastname": "Apellido",
+        "document": "DNI",
+        "phone": "Numero de Telefono",
+        "specialist": "Especialidad",
+        "date": "Fecha del Turno",
+        "chooseObra": "Obra Social correspondiente",
+        "btn": "Enviar",
+        "sumbit":"Se reservo su turno con exito!"
+    },
+    "maps":{
+        "title": "Hospitales Cercanos",
+        "text":"Aca podras encontrar los hospitales mas cercanos desde tu ubicacion actual",
+        "text-2":"¿Te gustaria ofrecer tu ubicacion para que podamos recomendarte los hospitales?",
+        "location":"Ubicacion",
+        "btn":"Activar",
+        "address": "Dirección",
+        "phone":"Telefono"
+    },
+    "contact":{
+        "title": "Contactanos",
+        "rol": "Desarrollador Fullstack"
+    }
+}

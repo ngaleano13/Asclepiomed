@@ -16,3 +16,8 @@
         font-size: 1.1rem;
     }
 }
+
+.navbar .dropdown-menu.show {
+    min-width: inherit;
+    display: inline-block;
+}

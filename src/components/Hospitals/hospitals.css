@@ -1,0 +1,91 @@
+.h1white{
+    color: aliceblue;
+}
+
+
+@media  screen and (max-width: 1500px) {
+    .img-obs{
+        display: none;
+    }
+}
+
+.obrasSociales{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    margin: auto;
+    max-width: 700px;
+}
+
+.obrasSociales a{
+    position: relative;
+    width: 11rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    background-size: 8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.obrasSociales a:hover{
+    bottom: .4rem;
+    left: .4rem;
+    background-size: 10rem;
+    background-color: #ffffff;
+    box-shadow: -11px 11px 0px -3px var(--blue-900);
+}
+
+.obs_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 2rem auto;
+    gap: 0;
+}
+
+.img-obs{
+    width: 20rem;
+    height: 40rem;
+}
+
+.ioma{
+    background-image: url('/public/img/LogoIOMA_SF.png');
+}
+.osde{
+    background-image: url('/public/img/LogoOSDE_SF.png');
+}
+.galeno{
+    background-image: url('/public/img/LogoGaleno_SF.png');
+}
+.swiss{
+    background-image: url('/public/img/LogoSwiss_SF.png');
+}
+.uocra{
+    background-image: url('/public/img/LogoUocra_SF.png');
+}
+
+
+@media screen and (min-width: 768px) {
+    .obrasSociales a{
+        position: relative;
+        width: 18rem;
+        height: 8rem;
+        background-size: 11rem;
+    }
+    
+    .obrasSociales a:hover{
+        background-size: 16rem;
+        background-color: #ffffff;
+    }
+}
+
+@media  screen and (max-width: 1500px) {
+    .img-obs{
+        display: none;
+    }
+}

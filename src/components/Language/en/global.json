@@ -1,0 +1,63 @@
+{
+    "navbar":{
+        "home":"Home",
+        "about-us": "About us",
+        "hospitals": "Health Insurance",
+        "searches": "Nearby Hospitals",
+        "shifts": "Get Turn",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "modal":{
+        "login": "Login",
+        "login-user": "User",
+        "login-password": "Password",
+        "login-account": "Don't have an account? Sign up",
+        "signup": "Sign Up",
+        "signup-user": "User",
+        "signup-password": "Password",
+        "signup-mail": "Mail",
+        "signup-account": "Do you already have an account? Log in",
+        "btn-sumbit": "Sumbit"
+    },
+    "header":{
+        "title": "Welcome to ASCLEPIO",
+        "subtitle": "Take care of your ",
+        "subtitle-from": " from ",
+        "span":"health",
+        "span-2":"home"
+    }
+    ,
+    "ObrasSociales":{
+        "title": "Health Insurance",
+        "text": "Below we show you the Health Insurance with which we work, you can click to go to their corresponding page.",
+        "text-2": "We also provide you with some branches of each Health Insurance along with their schedules."
+    },
+    "turnos":{
+        "title": "Online Shift Scheduling",
+        "text": "Here you can make appointments with affiliated social works",
+        "formtext": "Enter your details for the shift",
+        "name": "Name",
+        "lastname": "LastName",
+        "document": "DNI",
+        "phone": "Phone Number",
+        "specialist": "Specialist",
+        "date": "Shift date",
+        "chooseObra": "Corresponding Social Work",
+        "btn": "Sumbit",
+        "sumbit":"You booked your turn successfully!"
+    },
+    "maps":{
+        "title": "Nearby Hospitals",
+        "text":"Here you can find the closest hospitals from your current location",
+        "text-2":"Would you like to offer your location so we can recommend hospitals to you?",
+        "location":"Location",
+        "btn":"Activate",
+        "address": "Address",
+        "phone":"Phone"
+    },
+    "contact":{
+        "title": "Contact us",
+        "rol":"Fullstack Developer"
+    }
+}
