@@ -1,0 +1,61 @@
+.btnflex{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0rem auto;
+    align-items: center;
+}
+
+.btnflex > p{
+    margin: 0;
+    padding: 0;
+    display: block;
+    min-width: 100px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.map{
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin: 1rem auto;
+    min-width: 450px;
+}
+
+#btn-ubi{
+    background-color: var(--blue-950);
+    padding: .5rem;
+    border: 0;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2px;
+    z-index: 0;
+    color: white;
+}
+
+#btn-ubi:hover{
+    background-color: var(--blue-600);
+}
+
+#map{
+    margin-top: 2rem;
+    z-index: 2;
+}
+
+.leaflet-container{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    z-index: 2;
+}
+
+#popup-title{
+    font-size: 1.2rem;
+    margin: 0.6rem auto;
+    display: block;
+}
+
+#popup-info{
+    font-size: 0.8  rem;
+    margin: 0 auto;
+}

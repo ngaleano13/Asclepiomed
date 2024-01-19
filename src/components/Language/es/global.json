@@ -61,5 +61,19 @@
     "contact":{
         "title": "Contactanos",
         "rol": "Desarrollador Fullstack"
+    },
+    "accounts":{
+        "login-title": "Iniciar Sesion",
+        "register-title": "Registrarse",
+        "name": "Nombre",
+        "lastname": "Apellido",
+        "document": "Documento",
+        "mail": "Mail",
+        "password": "Contraseña",
+        "btn-register": "Registrar",
+        "btn-login":"Ingresar",
+        "haveacc": "¿Tenes una cuenta? Inicia Sesion",
+        "noacc": "¿No tenes una cuenta? Registrate"
+        
     }
 }

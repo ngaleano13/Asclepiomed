@@ -35,7 +35,7 @@
     },
     "turnos":{
         "title": "Online Shift Scheduling",
-        "text": "Here you can make appointments with affiliated social works",
+        "text": "Here you can make appointments with affiliated Health Insurance",
         "formtext": "Enter your details for the shift",
         "name": "Name",
         "lastname": "LastName",
@@ -62,5 +62,18 @@
     "contact":{
         "title": "Contact us",
         "rol":"Fullstack Developer"
+    },
+    "accounts":{
+        "login-title": "Sign In",
+        "register-title": "Sign Up",
+        "name": "Name",
+        "lastname": "Lastname",
+        "document": "Document",
+        "mail": "Mail",
+        "password": "Password",
+        "btn-register": "Register",
+        "btn-login":"Login",
+        "haveacc": "You have an account? Log in",
+        "noacc": "Don't have an account? Sign up"
     }
 }

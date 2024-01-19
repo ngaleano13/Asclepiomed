@@ -15,6 +15,8 @@ import { Contact } from './components/Contact/Contact'
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Route, Routes} from "react-router-dom"
+import { Login } from './components/Accounts/Login'
+import { Register } from './components/Accounts/Register'
 
 function App() {
 
@@ -22,18 +24,32 @@ function App() {
 
   useEffect(() => {
     const body = document.querySelector('body');
-    if (location.pathname === '/') {
-      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/hospital.jpg")';
-    } else if (location.pathname === '/forms') {
-      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/forms.jpg")';
-    } else if (location.pathname === '/contact') {
-      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/contact.jpg")';
-    } else if (location.pathname === '/maps') {
-      body.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/maps.jpg")';
-    } else {
-      body.style.backgroundImage = 'url("")';
+    var backgroundImage = '';
+
+    switch (location.pathname) {
+      case '/':
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/hospital.jpg")';
+        break;
+      case '/forms':
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/forms.jpg")';
+        break;
+      case '/contact':
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/contact.jpg")';
+        break;
+      case '/maps':
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/maps.jpg")';
+        break;
+      case '/login':
+      case '/register':
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../public/img/register.jpg")';
+        break;
+      default:
+        backgroundImage = 'url("")';
+        break;
     }
-  }, [location.pathname]);
+  
+    body.style.backgroundImage = backgroundImage;
+  });
 
   return (
     <>
@@ -45,6 +61,8 @@ function App() {
         <Route path='/maps' element={<Maps></Maps>}></Route>
         <Route path='/forms' element={<Forms></Forms>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
     </>
   )
