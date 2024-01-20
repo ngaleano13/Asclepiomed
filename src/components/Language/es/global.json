@@ -6,7 +6,12 @@
         "searches": "Hospitales Cercanos",
         "shifts": "Turnos",
         "contact": "Contactos",
-        "language": "Idioma"
+        "user-text":"Hola, ",
+        "language": "Idioma",
+        "account":"Cuenta",
+        "login":"Iniciar Sesion",
+        "register":"Registrarse",
+        "logout":"Cerrar Sesion"
     },
     "modal":{
         "login": "Iniciar Sesion",

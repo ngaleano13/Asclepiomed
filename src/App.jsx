@@ -12,13 +12,19 @@ import { Forms } from './components/Forms/Forms'
 import { Maps } from './components/Maps/Maps'
 import { Contact } from './components/Contact/Contact'
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Route, Routes} from "react-router-dom"
 import { Login } from './components/Accounts/Login'
 import { Register } from './components/Accounts/Register'
 
+
+export const UsuarioContext = React.createContext();
+
 function App() {
+
+  const [logged, setLogged] = useState(false);
+  const [name, setName] = useState(' ');
 
   const location = useLocation();
 
@@ -52,7 +58,7 @@ function App() {
   });
 
   return (
-    <>
+    <UsuarioContext.Provider value={[logged, setLogged, name, setName]}>
       <Navbar/>
       <Routes>
         <Route path='/*' element={ <Home></Home> }></Route>
@@ -64,7 +70,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
-    </>
+    </UsuarioContext.Provider>
   )
 }
 

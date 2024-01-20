@@ -6,7 +6,12 @@
         "searches": "Nearby Hospitals",
         "shifts": "Get Turn",
         "contact": "Contact",
-        "language": "Language"
+        "user-text":"Hello, ",
+        "language": "Language",
+        "account":"Account",
+        "login":"Log In",
+        "register":"Register",
+        "logout":"Log Out"
     },
     "modal":{
         "login": "Login",

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import React from 'react';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { bounds } from 'leaflet';
 
 export const Forms = () => {
     const [t] = useTranslation("global");

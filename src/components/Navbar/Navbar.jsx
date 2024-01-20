@@ -1,10 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
 import '../Navbar/navbar.css';
 import { useTranslation } from 'react-i18next';
+import { useContext } from 'react';
+import { UsuarioContext } from '../../App';
 
 
 
 export const Navbar = () => {
+  const [logged, setLogged] = useContext(UsuarioContext);
+  const [name, setName] = useContext(UsuarioContext);
+
+
   const [t, i18n] = useTranslation("global");
   return (
     <nav className="navbar fixed-top navbar-dark navbar-expand-lg custom-blue">
@@ -30,19 +36,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <NavLink to='/contact' className="nav-link">{t("navbar.contact")}</NavLink>
             </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Accounts
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <NavLink to='/login' className="dropdown-item">Login</NavLink>
-                </li>
-                <li>
-                  <NavLink to='/register' className="dropdown-item">Register</NavLink>
-                </li>
-              </ul>
-            </li>
+            {logged? <NavbarLogged usuario={name}></NavbarLogged> : <NavbarNotLogged></NavbarNotLogged>}
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {t("navbar.language")}
@@ -58,3 +52,37 @@ export const Navbar = () => {
     </nav>
   )
 }
+
+
+const NavbarNotLogged = () => {
+  const[t] = useTranslation("global");
+  return(
+  <li className="nav-item dropdown">
+  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  {t("navbar.account")}
+  </a>
+  <ul className="dropdown-menu">
+    <li>
+      <NavLink to='/login' className="dropdown-item">{t("navbar.login")}</NavLink>
+    </li>
+    <li>
+      <NavLink to='/register' className="dropdown-item">{t("navbar.register")}</NavLink>
+    </li>
+  </ul>
+</li>
+)}
+
+const NavbarLogged = ({usuario}) => {
+  const[t] = useTranslation("global");
+  return(
+  <li className="nav-item dropdown">
+  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    {t("navbar.user-text")} {usuario}
+  </a>
+  <ul className="dropdown-menu">
+    <li>
+      <a href="/home" className="dropdown-item">{t("navbar.logout")}</a>
+    </li>
+  </ul>
+</li>
+)}
