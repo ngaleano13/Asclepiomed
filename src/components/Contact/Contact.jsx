@@ -17,21 +17,21 @@ export const Contact = () => {
                     <ContactCard
                         name="Sasha Villegas"
                         linkedinUrl="https://www.linkedin.com/in/sashavillegas/"
-                        githubUrl="https://www.linkedin.com/in/sashavillegas/"
+                        githubUrl="https://github.com/Sasha-Villegas"
                         imgSrc="/img/sasha.png"
                         rol={t("contact.rol")}
                     />
                     <ContactCard
                         name="Josue Ferreira"
                         linkedinUrl="https://www.linkedin.com/in/josue1995/"
-                        githubUrl="https://www.linkedin.com/in/josue1995/"
+                        githubUrl="https://github.com/josueferr95"
                         imgSrc="/img/josue.png"
                         rol={t("contact.rol")}
                     />
                     <ContactCard
                         name="Marilyn Diaz"
-                        linkedinUrl="https://www.linkedin.com/in/marilyn-d-b47934228/"
-                        githubUrl="https://www.linkedin.com/in/marilyn-d-b47934228/"
+                        linkedinUrl="https://www.linkedin.com/in/marilyn-d/"
+                        githubUrl="https://github.com/mar-ilyn"
                         imgSrc="/img/mari.png"
                         rol={t("contact.rol")}
                     />
