@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../Accounts/accounts.css'
+import '../Accounts/Accounts.css'
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
