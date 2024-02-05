@@ -40,7 +40,8 @@
     },
     "turnos":{
         "title": "Online Shift Scheduling",
-        "text": "Here you can make appointments with affiliated Health Insurance",
+        "text": "You have to have an account to use this",
+        "login": "Log in",
         "formtext": "Enter your details for the shift",
         "name": "Name",
         "lastname": "LastName",

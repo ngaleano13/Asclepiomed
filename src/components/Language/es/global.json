@@ -39,7 +39,8 @@
     },
     "turnos":{
         "title": "Turnos Online",
-        "text": "Aca podras sacar turnos con las obras sociales afiliadas",
+        "text": "Tenes que tener una cuenta para utilzar esto",
+        "login": "Iniciar sesion",
         "formtext": "Ingresa tus datos para el turno",
         "name": "Nombre",
         "lastname": "Apellido",

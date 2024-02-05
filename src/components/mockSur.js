@@ -100,27 +100,27 @@ export const mockSur = {
         }
     ],
     galeno: [{
-            ubi: 'SUCURSAL BELGRANO <br> Vuelta de Obligado 2285, CABA',
+            ubi: 'SUCURSAL BELGRANO <br> Vuelta de Obligado 2285, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica2.jpg'
         },
         {
-            ubi: 'SUCURSAL CABALLITO <br> Donato Alvarez 20, CABA',
+            ubi: 'SUCURSAL CABALLITO <br> Donato Alvarez 20, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica.jpg'
         },
         {
-            ubi: 'SUCURSAL CENTRO <br> Av. Córdoba 1712, CABA',
+            ubi: 'SUCURSAL CENTRO <br> Av. Córdoba 1712, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica3.jpg'
         },
         {
-            ubi: 'SUCURSAL PALERMO <br> Coronel Díaz 1877, CABA',
+            ubi: 'SUCURSAL PALERMO <br> Coronel Díaz 1877, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica.jpg'
         },
         {
-            ubi: 'SUCURSAL VILLA URQUIZA <br> Av. Triunvirato 4083, CABA',
+            ubi: 'SUCURSAL VILLA URQUIZA <br> Av. Triunvirato 4083, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica3.jpg'
         },
         {
-            ubi: 'SUCURSAL MICROCENTRO <br> Av. Roque Saénz Peña 784, CABA',
+            ubi: 'SUCURSAL MICROCENTRO <br> Av. Roque Saénz Peña 784, CABA <br> Lunes a Viernes de 9 a 17 hs.',
             img: 'galeno-generica2.jpg'
         }
     ]
