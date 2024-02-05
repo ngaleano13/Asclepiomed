@@ -1,4 +1,4 @@
-import '../Accounts/accounts.css';
+import '../Accounts/Accounts.css';
 import { useTranslation } from 'react-i18next';
 import { useContext, useState } from 'react';
 import axios from 'axios';
