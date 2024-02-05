@@ -34,20 +34,20 @@ function App() {
 
     switch (location.pathname) {
       case '/':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/public/img/hospital.jpg")';
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/hospital.jpg")';
         break;
       case '/forms':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/public/img/forms.jpg")';
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/forms.jpg")';
         break;
       case '/contact':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/public/img/contact.jpg")';
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/contact.jpg")';
         break;
       case '/maps':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/public/img/maps.jpg")';
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/maps.jpg")';
         break;
       case '/login':
       case '/register':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/public/img/register.jpg")';
+        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/register.jpg")';
         break;
       default:
         backgroundImage = 'url("")';
