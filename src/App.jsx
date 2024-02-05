@@ -14,10 +14,15 @@ import { Contact } from './components/Contact/Contact'
 
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Route, Routes} from "react-router-dom"
-import { Login } from './components/Accounts/Login'
-import { Register } from './components/Accounts/Register'
+import { Route, Routes} from "react-router-dom";
+import { Login } from './components/Accounts/Login';
+import { Register } from './components/Accounts/Register';
 
+import imgHospitals from '../public/img/hospital.jpg';
+import imgForms from '../public/img/forms.jpg';
+import imgContact from '../public/img/contact.jpg';
+import imgMaps from '../public/img/maps.jpg';
+import imgRegister from '../public/img/register.jpg';
 
 export const UsuarioContext = React.createContext();
 
@@ -34,20 +39,20 @@ function App() {
 
     switch (location.pathname) {
       case '/':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/hospital.jpg")';
+        backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("${imgHospitals}")`;
         break;
       case '/forms':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/forms.jpg")';
+        backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("${imgForms}")`;
         break;
       case '/contact':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/contact.jpg")';
+        backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("${imgContact}")`;
         break;
       case '/maps':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/maps.jpg")';
+        backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("${imgMaps}")`;
         break;
       case '/login':
       case '/register':
-        backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../public/img/register.jpg")';
+        backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("${imgRegister}")`;
         break;
       default:
         backgroundImage = 'url("")';
